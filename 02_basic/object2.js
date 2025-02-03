@@ -47,8 +47,26 @@ const users = [
 
 users[1].email
 // console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "javaScript",
+    courseinstructor: "Qazi Ahmeed Muddassir"
+}
+
+// const {coursename} = course
+// console.log(coursename)
+
+// const {coursename: cname} = course
+// console.log(cname)
+
+/* JSON for fetch API*/
+// {
+//     "coursename": "javaScript",
+//     "courseprice": 1200,
+//     "courseinstructor" : "Muddassir"
+// }
